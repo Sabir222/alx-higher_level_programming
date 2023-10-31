@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-import string
-
-ascii = string.ascii_lowercase
-print(ascii)
+for char_code in range(ord("a"), ord("z") + 1):
+    print(chr(char_code), end="")

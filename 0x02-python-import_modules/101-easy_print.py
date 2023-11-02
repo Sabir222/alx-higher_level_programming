@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-from printfile import printFunction
+from printfile import printFunction; printFunction()
 
-printFunction()

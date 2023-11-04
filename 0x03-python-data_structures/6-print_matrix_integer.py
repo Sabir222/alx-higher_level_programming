@@ -3,6 +3,10 @@
 
 def print_matrix_integer(matrix=[[]]):
     for i in matrix:
-        for j in i:
-            print("{}".format(j), end=" ")
+        for j, value in enumerate(i):
+            if j == 2:
+                print("{}".format(j), end="")
+            else:
+                print("{}".format(j), end=" ")
+
         print()

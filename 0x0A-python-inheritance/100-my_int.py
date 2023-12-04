@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""MyInt class module"""
+"""ds"""
 
 
 class MyInt(int):
-    """A MyInt class"""
+    """ds"""
     def __eq__(self, other):
-        """Overides and inverts == operator"""
+        """ds"""
         return int(self) != int(other)
 
     def __ne__(self, other):
-        """Overides and inverts != operator"""
+        """ds"""
         return int(self) == int(other)

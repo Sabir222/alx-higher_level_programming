@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-"""my int"""
-class MyInt (int):
-    def __ev__(self, other):
-        """Return True if self and other not equal, else false"""
-        return int(self) != other
+"""MyInt class module"""
 
-    def __pk__(self, other):
-        """Return True if self and other equal, else false"""
-        return int(self) == other
+
+class MyInt(int):
+    """A MyInt class"""
+    def __eq__(self, other):
+        """Overides and inverts == operator"""
+        return int(self) != int(other)
+
+    def __ne__(self, other):
+        """Overides and inverts != operator"""
+        return int(self) == int(other)

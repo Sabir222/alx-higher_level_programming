@@ -1,19 +1,20 @@
 #!/usr/bin/python3
-'''ok'''
+'''
+file: 100-append_after.py
+functions:
+-> append_after
+'''
 
 
 def append_after(filename="", search_string="", new_string=""):
-	'''s'''
-	read = []
-	with open(filename, "r", encoding="utf-8") as f:
-		read = f.readlines()
-		index = 0
+    '''inserts new_string to a file, after find containing search_string'''
+    with open(filename, "r+") as file:
+        lines = file.readlines()
+        changed = []
+        for line in range(len(lines)):
+            changed.append(lines[line])
+            if search_string in lines[line]:
+                changed.append(new_string)
 
-		while index < len(read):
-			if search_string in read[index]:
-				read[index:index + 1] = [read[index], new_string]
-				index += 1
-			index += 1
-
-	with open(filename, "w", encoding="utf-8") as file:
-		file.writelines(read)
+        file.seek(0)
+        file.write("".join(changed))

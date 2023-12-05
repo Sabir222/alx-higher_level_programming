@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 """
-file: 10-class_to_json.py
-functions:
--> class_to_json
+fin
 """
 
 
 def class_to_json(obj):
-    """ retuns the dictionary description with simple data structure """
+    """ ucture """
 
     structure = {}
     if hasattr(obj, "__dict__"):

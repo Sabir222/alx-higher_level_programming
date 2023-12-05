@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 '''
-file: 14-pascal_triangle.py
-functions:
--> pascal_triangle
+f
 '''
 
 
 def pascal_triangle(n):
-    ''' Create a list of list representing pascal triangle '''
+    ''' ngle '''
 
     triangle = []
     if n == 0:

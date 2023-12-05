@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Reads from standard input and computes metrics
+Rrics
 """
 
 
@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     c = 0
     size = 0
-    vd = ['200', '301', '400', '401', '403', '404', '405', '500']
+    vd = ["200", "301", "400", "401", "403", "404", "405", "500"]
     st = {}
 
     try:

@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 '''
-file: 11-student.py
-Classes:
--> Student
+f
 '''
 
 
 class Student:
-    ''' Student class '''
+    ''' Ss '''
 
     def __init__(self, first_name, last_name, age):
         ''' Constructor method '''
@@ -16,7 +14,7 @@ class Student:
         self.age = age
 
     def to_json(self, attrs=None):
-        ''' Method that returns directory description with filter '''
+        ''' Mth filter '''
 
         if isinstance(attrs, list) and all(isinstance(attr, str)
                                            for attr in attrs):

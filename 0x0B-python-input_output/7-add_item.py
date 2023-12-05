@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
- save items to a file.
+ ile.
 """
 
 import sys

@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// A script 
+// A script
 
 const file = process.argv[2];
 const fs = require('fs');

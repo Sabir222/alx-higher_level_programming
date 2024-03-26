@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// A script 
+// A script
 
 const args = process.argv;
 let request = require('request');
